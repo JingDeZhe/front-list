@@ -1,6 +1,8 @@
 <script lang="ts" setup>
 import { SelectionArea, type SelectionEvent } from '@viselect/vue'
 import { computed, reactive, ref } from 'vue'
+import { toggleDark } from '../../util'
+toggleDark(true)
 
 const config = ref({
   row: 6,

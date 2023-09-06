@@ -2,3 +2,15 @@ html,
 body {
   --at-apply: m-0 p-0 overflow-hidden;
 }
+
+.app-ctn {
+  --at-apply: h-screen overflow-hidden;
+}
+
+.all-center {
+  --at-apply: flex flex-col items-center justify-center;
+}
+
+.theme-dark {
+  --at-apply: bg-[#2D333B] text-[#ADBAC7];
+}

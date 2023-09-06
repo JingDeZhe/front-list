@@ -8,6 +8,9 @@ dependencies:
   '@tabler/icons-vue':
     specifier: ^2.33.0
     version: 2.33.0(vue@3.3.4)
+  '@viselect/vue':
+    specifier: ^3.3.1
+    version: 3.3.1(vue@3.3.4)
   axios:
     specifier: ^1.5.0
     version: 1.5.0
@@ -664,6 +667,19 @@ packages:
     transitivePeerDependencies:
       - rollup
     dev: true
+
+  /@viselect/vanilla@3.3.1:
+    resolution: {integrity: sha512-QqkPGV+uyteX/HqzhHp5ZRfpVYiA0A3umh8HT/nfoBKccoA/kiTdI+5B/8ZPijtanBj9NNymMMPCn0W+/BeEyg==}
+    dev: false
+
+  /@viselect/vue@3.3.1(vue@3.3.4):
+    resolution: {integrity: sha512-qEgtHrCeYCoLjYztSPCI5vgZA5BE/WR4cObYVh4sqxHwmqD5I3KAEfFWhhvMFXN5wODZpLf/AXNgqBovMP7fjg==}
+    peerDependencies:
+      vue: '>=3.0.0'
+    dependencies:
+      '@viselect/vanilla': 3.3.1
+      vue: 3.3.4
+    dev: false
 
   /@vitejs/plugin-vue@4.3.4(vite@4.4.9)(vue@3.3.4):
     resolution: {integrity: sha512-ciXNIHKPriERBisHFBvnTbfKa6r9SAesOYXeGDzgegcvy9Q4xdScSHAmKbNT0M3O0S9LKhIf5/G+UYG4NnnzYw==}

@@ -4,6 +4,7 @@ import { basicSetup, EditorView } from 'codemirror'
 import { EditorState, Compartment } from '@codemirror/state'
 import { javascript } from '@codemirror/lang-javascript'
 import { cpp } from '@codemirror/lang-cpp'
+import { oneDarkTheme } from '@codemirror/theme-one-dark'
 import { tags } from '@lezer/highlight'
 import { HighlightStyle, syntaxHighlighting } from '@codemirror/language'
 import { codeJs, codeCpp } from './data/code-snippets'
@@ -29,13 +30,14 @@ onMounted(() => {
         fontFamily: `'Sarasa Mono SC', 'Courier New', Courier, monospace`,
       },
       '&.cm-focused .cm-cursor': {
-        borderLeftColor: 'var(--nord1)',
+        borderLeftColor: 'var(--nord13)',
+        borderLeftWidth: '2px',
       },
       '&.cm-focused .cm-selectionBackground, ::selection': {
-        backgroundColor: 'var(--nord2)',
+        backgroundColor: 'var(--nord3)',
       },
       '.cm-gutters': {
-        backgroundColor: 'var(--nord1)',
+        backgroundColor: 'var(--nord2)',
         color: 'var(--nord4)',
         border: 'none',
       },
@@ -96,6 +98,14 @@ function toggleReadonly() {
     effects: readonlyConfig.reconfigure(EditorState.readOnly.of(readonly)),
   })
 }
+
+function focus() {
+  const v = view.value!
+  v.focus()
+  v.dispatch({
+    selection: { anchor: v.state.doc.length },
+  })
+}
 </script>
 
 <template>
@@ -103,6 +113,7 @@ function toggleReadonly() {
     <div class="p-2 flex items-center gap-2 justify-end">
       <el-button @click="toggleReadonly">Toggle Readonly</el-button>
       <el-button @click="toggleLanguage">Toggle Language</el-button>
+      <el-button @click="focus">Focus</el-button>
     </div>
     <div class="col-ctn_body" ref="ctn"></div>
   </div>

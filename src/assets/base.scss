@@ -14,3 +14,10 @@ body {
 .theme-dark {
   --at-apply: bg-[#2D333B] text-[#ADBAC7];
 }
+
+.col-ctn {
+  --at-apply: flex flex-col overflow-hidden;
+  &_body {
+    --at-apply: flex-1 overflow-hidden;
+  }
+}

@@ -43,6 +43,8 @@ declare module 'vue-router/auto/routes' {
     '/About': RouteRecordInfo<'/About', '/About', Record<never, never>, Record<never, never>>,
     '/list/DemoBetterScroll': RouteRecordInfo<'/list/DemoBetterScroll', '/list/DemoBetterScroll', Record<never, never>, Record<never, never>>,
     '/list/DemoCodemirror': RouteRecordInfo<'/list/DemoCodemirror', '/list/DemoCodemirror', Record<never, never>, Record<never, never>>,
+    '/list/DemoFlow/': RouteRecordInfo<'/list/DemoFlow/', '/list/DemoFlow', Record<never, never>, Record<never, never>>,
+    '/list/DemoFlow/NodeScript': RouteRecordInfo<'/list/DemoFlow/NodeScript', '/list/DemoFlow/NodeScript', Record<never, never>, Record<never, never>>,
     '/list/DemoSelection': RouteRecordInfo<'/list/DemoSelection', '/list/DemoSelection', Record<never, never>, Record<never, never>>,
   }
 }

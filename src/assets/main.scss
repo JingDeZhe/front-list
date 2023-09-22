@@ -1,1 +1,12 @@
 @import './base.scss';
+
+.dark-input {
+  > .el-input__wrapper {
+    border: none;
+    border-bottom: 1px solid #999;
+    --at-apply: bg-transparent p-0;
+    > .el-input__inner {
+      --at-apply: bg-[#282C34];
+    }
+  }
+}

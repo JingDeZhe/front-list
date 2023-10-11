@@ -1,0 +1,15 @@
+.plain-cmu {
+  --at-apply: shadow fixed rounded min-w-[200px] cursor-default;
+  &_menu-item {
+    --at-apply: px-5 py-2 color-gray-700;
+    transition-property: background-color;
+    transition-duration: 0.1s;
+    &:hover {
+      --at-apply: bg-gray-100;
+    }
+
+    &.cmu-divide {
+      --at-apply: p-0 border-t-1 border-t-solid border-t-gray-200 select-none;
+    }
+  }
+}

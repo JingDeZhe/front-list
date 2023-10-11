@@ -41,12 +41,13 @@ declare module 'vue-router/auto/routes' {
   export interface RouteNamedMap {
     '/': RouteRecordInfo<'/', '/', Record<never, never>, Record<never, never>>,
     '/About': RouteRecordInfo<'/About', '/About', Record<never, never>, Record<never, never>>,
-    '/draft/PlainContextmenu/': RouteRecordInfo<'/draft/PlainContextmenu/', '/draft/PlainContextmenu', Record<never, never>, Record<never, never>>,
-    '/list/DemoBetterScroll': RouteRecordInfo<'/list/DemoBetterScroll', '/list/DemoBetterScroll', Record<never, never>, Record<never, never>>,
-    '/list/DemoCodemirror': RouteRecordInfo<'/list/DemoCodemirror', '/list/DemoCodemirror', Record<never, never>, Record<never, never>>,
-    '/list/DemoFlow/': RouteRecordInfo<'/list/DemoFlow/', '/list/DemoFlow', Record<never, never>, Record<never, never>>,
+    '简单的右键菜单': RouteRecordInfo<'简单的右键菜单', '/draft/PlainContextmenu', Record<never, never>, Record<never, never>>,
+    '列表': RouteRecordInfo<'列表', '/list', Record<never, never>, Record<never, never>>,
+    'Better Scroll': RouteRecordInfo<'Better Scroll', '/list/DemoBetterScroll', Record<never, never>, Record<never, never>>,
+    'Codemirror6': RouteRecordInfo<'Codemirror6', '/list/DemoCodemirror', Record<never, never>, Record<never, never>>,
+    '状态机图': RouteRecordInfo<'状态机图', '/list/DemoFlow', Record<never, never>, Record<never, never>>,
     '/list/DemoFlow/NodeScript': RouteRecordInfo<'/list/DemoFlow/NodeScript', '/list/DemoFlow/NodeScript', Record<never, never>, Record<never, never>>,
-    '/list/DemoSelection': RouteRecordInfo<'/list/DemoSelection', '/list/DemoSelection', Record<never, never>, Record<never, never>>,
+    '鼠标框选元素': RouteRecordInfo<'鼠标框选元素', '/list/DemoSelection', Record<never, never>, Record<never, never>>,
   }
 }
 

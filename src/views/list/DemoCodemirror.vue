@@ -10,6 +10,11 @@ import { HighlightStyle, syntaxHighlighting } from '@codemirror/language'
 import { codeJs, codeCpp } from './data/code-snippets'
 import { toggleDark } from '@/util'
 
+import { definePage } from 'vue-router/auto'
+definePage({
+  name: 'Codemirror6',
+})
+
 toggleDark(true)
 const ctn = ref<HTMLElement>()
 const view = shallowRef<EditorView>()

@@ -2,6 +2,12 @@
 import { SelectionArea, type SelectionEvent } from '@viselect/vue'
 import { computed, reactive, ref } from 'vue'
 import { toggleDark } from '../../util'
+
+import { definePage } from 'vue-router/auto'
+definePage({
+  name: '鼠标框选元素',
+})
+
 toggleDark(true)
 
 const config = ref({

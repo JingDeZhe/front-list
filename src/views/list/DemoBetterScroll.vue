@@ -2,6 +2,12 @@
 import { ref, onMounted } from 'vue'
 import { toggleDark } from '@/util'
 import BetterScroll from 'better-scroll'
+
+import { definePage } from 'vue-router/auto'
+definePage({
+  name: 'Better Scroll',
+})
+
 toggleDark(true)
 
 const ctn = ref<HTMLElement>()

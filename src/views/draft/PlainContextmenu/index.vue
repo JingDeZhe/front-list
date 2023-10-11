@@ -1,6 +1,8 @@
 <script lang="ts" setup>
 import ContextMenu from './contextmenu'
+import { definePage } from 'vue-router/auto'
 
+definePage({ name: '简单的右键菜单' })
 const cmu = new ContextMenu()
 
 function showCmu(e: MouseEvent) {

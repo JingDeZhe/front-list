@@ -12,6 +12,11 @@ import { v4 as uid } from 'uuid'
 import { get as kyGet, set as kySet } from 'idb-keyval'
 import ContextMenu from '@imengyu/vue3-context-menu'
 
+import { definePage } from 'vue-router/auto'
+definePage({
+  name: '状态机图',
+})
+
 const flow = useVueFlow()
 
 type FlowElement =

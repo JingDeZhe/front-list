@@ -3,7 +3,6 @@ import { fileURLToPath, URL } from 'node:url'
 import UnoCSS from 'unocss/vite'
 import VueRouter from 'unplugin-vue-router/vite'
 import { defineConfig } from 'vite'
-import Layouts from 'vite-plugin-vue-layouts'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -13,7 +12,6 @@ export default defineConfig({
       routesFolder: './src/views',
     }),
     vue(),
-    Layouts(),
     UnoCSS(),
   ],
   resolve: {

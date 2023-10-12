@@ -16,7 +16,11 @@ const formatRoutes = computed(() => {
       }
       const item = { name: name, path: r.path }
       if (r.children?.length) {
-        const children = r.children
+        const children = []
+        for (let child of r.children) {
+          if (child.path === '') continue
+          children.push({ name: child.name || child.path, path: child.path })
+        }
         item.children = children
       }
       t.push(item)
@@ -37,7 +41,7 @@ console.log(routes, formatRoutes.value)
           </template>
           <el-menu-item v-for="v2 in v.children" :index="v2.path">
             <template #title>
-              <span>{{ v.name }}</span>
+              <span>{{ v2.name }}</span>
             </template>
           </el-menu-item>
         </el-sub-menu>

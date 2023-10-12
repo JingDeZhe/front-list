@@ -1,5 +1,5 @@
 <script setup lang="ts"></script>
 
 <template>
-  <main>HOME</main>
+  <main class="h-screen all-center font-serif text-xl">HOME</main>
 </template>

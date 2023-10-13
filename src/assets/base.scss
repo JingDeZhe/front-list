@@ -11,12 +11,23 @@ body {
   --at-apply: flex flex-col items-center justify-center;
 }
 
+.v-center {
+  --at-apply: flex items-center;
+}
+
 .theme-dark {
   --at-apply: bg-[#2D333B] text-[#ADBAC7];
 }
 
 .col-ctn {
   --at-apply: flex flex-col overflow-hidden;
+  &_body {
+    --at-apply: flex-1 overflow-hidden;
+  }
+}
+
+.row-ctn {
+  --at-apply: flex items-stretch overflow-hidden;
   &_body {
     --at-apply: flex-1 overflow-hidden;
   }

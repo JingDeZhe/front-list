@@ -48,6 +48,7 @@ declare module 'vue-router/auto/routes' {
     '状态机图': RouteRecordInfo<'状态机图', '/list/DemoFlow', Record<never, never>, Record<never, never>>,
     '/list/DemoFlow/NodeScript': RouteRecordInfo<'/list/DemoFlow/NodeScript', '/list/DemoFlow/NodeScript', Record<never, never>, Record<never, never>>,
     '鼠标框选元素': RouteRecordInfo<'鼠标框选元素', '/list/DemoSelection', Record<never, never>, Record<never, never>>,
+    '/ui/blog01/': RouteRecordInfo<'/ui/blog01/', '/ui/blog01', Record<never, never>, Record<never, never>>,
   }
 }
 

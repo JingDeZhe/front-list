@@ -37,6 +37,7 @@
     "web-tree-sitter": "^0.20.8"
   },
   "devDependencies": {
+    "@faker-js/faker": "^8.1.0",
     "@tsconfig/node18": "^18.2.2",
     "@types/node": "^20.8.4",
     "@types/uuid": "^9.0.5",

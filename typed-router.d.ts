@@ -42,6 +42,8 @@ declare module 'vue-router/auto/routes' {
     '/': RouteRecordInfo<'/', '/', Record<never, never>, Record<never, never>>,
     '/About': RouteRecordInfo<'/About', '/About', Record<never, never>, Record<never, never>>,
     '简单的右键菜单': RouteRecordInfo<'简单的右键菜单', '/draft/PlainContextmenu', Record<never, never>, Record<never, never>>,
+    '/js/binary-search': RouteRecordInfo<'/js/binary-search', '/js/binary-search', Record<never, never>, Record<never, never>>,
+    '/js/generate-tree': RouteRecordInfo<'/js/generate-tree', '/js/generate-tree', Record<never, never>, Record<never, never>>,
     '列表': RouteRecordInfo<'列表', '/list', Record<never, never>, Record<never, never>>,
     'Better Scroll': RouteRecordInfo<'Better Scroll', '/list/DemoBetterScroll', Record<never, never>, Record<never, never>>,
     'Codemirror6': RouteRecordInfo<'Codemirror6', '/list/DemoCodemirror', Record<never, never>, Record<never, never>>,

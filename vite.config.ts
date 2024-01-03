@@ -10,6 +10,7 @@ const root: string = process.cwd()
 export default ({ mode }: ConfigEnv): UserConfigExport => {
   const { VITE_CDN } = loadEnv(mode, root)
   return {
+    server: { port: 3085 },
     base: '/front-list/',
     plugins: [
       VueRouter({

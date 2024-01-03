@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import { Handle, Position } from '@vue-flow/core'
-import { IconCode, IconEdit } from '@tabler/icons-vue'
 import { computed, ref } from 'vue'
 
 const props = defineProps<{
@@ -25,7 +24,7 @@ const hasCode = computed(() => !!props.data?.script)
       :class="{ 'text-orange': hasCode }"
       @click="toEditScript"
     >
-      <IconCode />
+      <i class="i-tabler-terminal"></i>
     </el-icon>
     <span class="italic text-gray-500"> click to edit </span>
   </div>

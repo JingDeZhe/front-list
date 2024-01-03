@@ -7,7 +7,6 @@ import NodeScript from './NodeScript.vue'
 import { Codemirror } from 'vue-codemirror'
 import { javascript } from '@codemirror/lang-javascript'
 import { oneDark } from '@codemirror/theme-one-dark'
-import { IconInfoCircleFilled } from '@tabler/icons-vue'
 import { v4 as uid } from 'uuid'
 import { get as kyGet, set as kySet } from 'idb-keyval'
 import ContextMenu from '@imengyu/vue3-context-menu'
@@ -177,7 +176,7 @@ onMounted(loadFlow)
             <span>flow</span><span v-if="editorType === 'flow'">,&nbsp;exports</span>&#41; &#123;
             <el-popover width="260">
               <template #reference>
-                <el-icon class="ml-auto"><IconInfoCircleFilled /></el-icon>
+                <i class="i-tabler-info-circle-filled"></i>
               </template>
               <div><span class="font-bold">ctx:</span> Project context</div>
               <div><span class="font-bold">flow:</span> Flow chart context</div>

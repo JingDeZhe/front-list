@@ -41,16 +41,16 @@ declare module 'vue-router/auto/routes' {
   export interface RouteNamedMap {
     '/': RouteRecordInfo<'/', '/', Record<never, never>, Record<never, never>>,
     '/About': RouteRecordInfo<'/About', '/About', Record<never, never>, Record<never, never>>,
+    'Better Scroll': RouteRecordInfo<'Better Scroll', '/demo/better-scroll', Record<never, never>, Record<never, never>>,
+    'Codemirror6': RouteRecordInfo<'Codemirror6', '/demo/codemirror', Record<never, never>, Record<never, never>>,
+    '状态机图': RouteRecordInfo<'状态机图', '/demo/flow', Record<never, never>, Record<never, never>>,
+    '/demo/flow/NodeScript': RouteRecordInfo<'/demo/flow/NodeScript', '/demo/flow/NodeScript', Record<never, never>, Record<never, never>>,
+    '鼠标框选元素': RouteRecordInfo<'鼠标框选元素', '/demo/range-selection', Record<never, never>, Record<never, never>>,
     '简单的右键菜单': RouteRecordInfo<'简单的右键菜单', '/draft/PlainContextmenu', Record<never, never>, Record<never, never>>,
     '/js/binary-search': RouteRecordInfo<'/js/binary-search', '/js/binary-search', Record<never, never>, Record<never, never>>,
     '/js/generate-tree': RouteRecordInfo<'/js/generate-tree', '/js/generate-tree', Record<never, never>, Record<never, never>>,
     '/js/hash-01': RouteRecordInfo<'/js/hash-01', '/js/hash-01', Record<never, never>, Record<never, never>>,
-    '列表': RouteRecordInfo<'列表', '/list', Record<never, never>, Record<never, never>>,
-    'Better Scroll': RouteRecordInfo<'Better Scroll', '/list/DemoBetterScroll', Record<never, never>, Record<never, never>>,
-    'Codemirror6': RouteRecordInfo<'Codemirror6', '/list/DemoCodemirror', Record<never, never>, Record<never, never>>,
-    '状态机图': RouteRecordInfo<'状态机图', '/list/DemoFlow', Record<never, never>, Record<never, never>>,
-    '/list/DemoFlow/NodeScript': RouteRecordInfo<'/list/DemoFlow/NodeScript', '/list/DemoFlow/NodeScript', Record<never, never>, Record<never, never>>,
-    '鼠标框选元素': RouteRecordInfo<'鼠标框选元素', '/list/DemoSelection', Record<never, never>, Record<never, never>>,
+    '/svg/path-01': RouteRecordInfo<'/svg/path-01', '/svg/path-01', Record<never, never>, Record<never, never>>,
     '/ui/blog01/': RouteRecordInfo<'/ui/blog01/', '/ui/blog01', Record<never, never>, Record<never, never>>,
   }
 }

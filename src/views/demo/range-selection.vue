@@ -77,8 +77,8 @@ function selectClear() {
     <SelectionArea
       class="seat-list"
       :options="{ selectables: '.seat-item' }"
-      :on-move="onMove"
-      :on-start="onStart"
+      @move="onMove"
+      @start="onStart"
       :style="{ gridTemplateColumns: `repeat(${config.col}, 1fr)` }"
       ref="refSelection"
     >
@@ -107,5 +107,10 @@ function selectClear() {
   &.selected {
     --at-apply: bg-orange border-orange;
   }
+}
+.selection-area {
+  background: rgba(46, 115, 252, 0.11);
+  border: 2px solid rgba(98, 155, 255, 0.81);
+  border-radius: 0.1em;
 }
 </style>

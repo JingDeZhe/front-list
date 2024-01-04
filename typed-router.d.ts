@@ -50,6 +50,7 @@ declare module 'vue-router/auto/routes' {
     '/js/binary-search': RouteRecordInfo<'/js/binary-search', '/js/binary-search', Record<never, never>, Record<never, never>>,
     '/js/generate-tree': RouteRecordInfo<'/js/generate-tree', '/js/generate-tree', Record<never, never>, Record<never, never>>,
     '/js/hash-01': RouteRecordInfo<'/js/hash-01', '/js/hash-01', Record<never, never>, Record<never, never>>,
+    '/nature/c01-walker': RouteRecordInfo<'/nature/c01-walker', '/nature/c01-walker', Record<never, never>, Record<never, never>>,
     '/svg/path-01': RouteRecordInfo<'/svg/path-01', '/svg/path-01', Record<never, never>, Record<never, never>>,
     '/ui/blog01/': RouteRecordInfo<'/ui/blog01/', '/ui/blog01', Record<never, never>, Record<never, never>>,
   }

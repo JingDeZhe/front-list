@@ -10,3 +10,12 @@
     }
   }
 }
+
+.canvas-ctn {
+  --at-apply: flex flex-col gap-1 items-start h-screen overflow-hidden p-2 box-border;
+  background-color: #292c34;
+  color: #a0b2bf;
+  > canvas {
+    --at-apply: bg-[#ccc] shadow;
+  }
+}

@@ -54,6 +54,8 @@ declare module 'vue-router/auto/routes' {
     'Randow Walker With Noise': RouteRecordInfo<'Randow Walker With Noise', '/nature/c02-walker-noise', Record<never, never>, Record<never, never>>,
     'Vector 01': RouteRecordInfo<'Vector 01', '/nature/c03-vector', Record<never, never>, Record<never, never>>,
     'Vector 01': RouteRecordInfo<'Vector 01', '/nature/c04-vector', Record<never, never>, Record<never, never>>,
+    '/rx/': RouteRecordInfo<'/rx/', '/rx', Record<never, never>, Record<never, never>>,
+    '/rx/d-01': RouteRecordInfo<'/rx/d-01', '/rx/d-01', Record<never, never>, Record<never, never>>,
     '/svg/path-01': RouteRecordInfo<'/svg/path-01', '/svg/path-01', Record<never, never>, Record<never, never>>,
     '/tmp/math-01': RouteRecordInfo<'/tmp/math-01', '/tmp/math-01', Record<never, never>, Record<never, never>>,
     '/ui/blog01/': RouteRecordInfo<'/ui/blog01/', '/ui/blog01', Record<never, never>, Record<never, never>>,

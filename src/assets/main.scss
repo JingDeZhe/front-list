@@ -19,3 +19,7 @@
     --at-apply: bg-[#ccc] shadow;
   }
 }
+
+.cover-ctn {
+  --at-apply: h-screen flex flex-col items-center justify-center font-serif text-xl;
+}

@@ -62,6 +62,9 @@ dependencies:
   nord:
     specifier: ^0.2.1
     version: 0.2.1
+  numeral:
+    specifier: ^2.0.6
+    version: 2.0.6
   p5:
     specifier: ^1.9.0
     version: 1.9.0
@@ -103,6 +106,9 @@ devDependencies:
   '@types/node':
     specifier: ^20.10.6
     version: 20.10.6
+  '@types/numeral':
+    specifier: ^2.0.5
+    version: 2.0.5
   '@types/p5':
     specifier: ^1.7.6
     version: 1.7.6
@@ -1261,6 +1267,10 @@ packages:
     resolution: {integrity: sha512-Vac8H+NlRNNlAmDfGUP7b5h/KA+AtWIzuXy0E6OyP8f1tCLYAtPvKRRDJjAPqhpCb0t6U2j7/xqAuLEebW2kiw==}
     dependencies:
       undici-types: 5.26.5
+    dev: true
+
+  /@types/numeral@2.0.5:
+    resolution: {integrity: sha512-kH8I7OSSwQu9DS9JYdFWbuvhVzvFRoCPCkGxNwoGgaPeDfEPJlcxNvEOypZhQ3XXHsGbfIuYcxcJxKUfJHnRfw==}
     dev: true
 
   /@types/p5@1.7.6:
@@ -2986,6 +2996,10 @@ packages:
     dependencies:
       path-key: 3.1.1
     dev: true
+
+  /numeral@2.0.6:
+    resolution: {integrity: sha512-qaKRmtYPZ5qdw4jWJD6bxEf1FJEqllJrwxCLIm0sQU/A7v2/czigzOb+C2uSiFsa9lBUzeH7M1oK+Q+OLxL3kA==}
+    dev: false
 
   /object-inspect@1.12.3:
     resolution: {integrity: sha512-geUvdk7c+eizMNUDkRpW1wJwgfOiOeHbxBR/hLXK1aT6zmVSO0jsQcs7fj6MGw89jC/cjGfLcNOrtMYtGqm81g==}

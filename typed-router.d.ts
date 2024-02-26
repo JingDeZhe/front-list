@@ -48,6 +48,7 @@ declare module 'vue-router/auto/routes' {
     '鼠标框选元素': RouteRecordInfo<'鼠标框选元素', '/demo/range-selection', Record<never, never>, Record<never, never>>,
     '简单的右键菜单': RouteRecordInfo<'简单的右键菜单', '/draft/PlainContextmenu', Record<never, never>, Record<never, never>>,
     '/js/binary-search': RouteRecordInfo<'/js/binary-search', '/js/binary-search', Record<never, never>, Record<never, never>>,
+    '/js/build-tree-01': RouteRecordInfo<'/js/build-tree-01', '/js/build-tree-01', Record<never, never>, Record<never, never>>,
     '/js/generate-tree': RouteRecordInfo<'/js/generate-tree', '/js/generate-tree', Record<never, never>, Record<never, never>>,
     '/js/hash-01': RouteRecordInfo<'/js/hash-01', '/js/hash-01', Record<never, never>, Record<never, never>>,
     '/js/number-format': RouteRecordInfo<'/js/number-format', '/js/number-format', Record<never, never>, Record<never, never>>,

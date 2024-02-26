@@ -35,6 +35,18 @@ dependencies:
   '@vueuse/core':
     specifier: ^10.8.0
     version: 10.8.0(vue@3.4.20)
+  ag-grid-charts-enterprise:
+    specifier: ^31.1.1
+    version: 31.1.1
+  ag-grid-community:
+    specifier: ^31.1.1
+    version: 31.1.1
+  ag-grid-enterprise:
+    specifier: ^31.1.1
+    version: 31.1.1
+  ag-grid-vue3:
+    specifier: ^31.1.1
+    version: 31.1.1(vue@3.4.20)
   axios:
     specifier: ^1.6.7
     version: 1.6.7
@@ -141,7 +153,7 @@ devDependencies:
     version: 5.3.3
   unocss:
     specifier: ^0.58.5
-    version: 0.58.5(postcss@8.4.32)(rollup@2.79.1)(vite@5.1.4)
+    version: 0.58.5(postcss@8.4.35)(rollup@2.79.1)(vite@5.1.4)
   unplugin-vue-router:
     specifier: ^0.8.4
     version: 0.8.4(rollup@2.79.1)(vue-router@4.3.0)(vue@3.4.20)
@@ -1344,7 +1356,7 @@ packages:
       sirv: 2.0.4
     dev: true
 
-  /@unocss/postcss@0.58.5(postcss@8.4.32):
+  /@unocss/postcss@0.58.5(postcss@8.4.35):
     resolution: {integrity: sha512-m4L2YRdYfT6CV306Kl2VwEwbqa/92EpW4GE2Kqak1RuJyFJXBnWEEMJV4Uy6B1jWKLlCEWkuVUW33JUg7X6BxQ==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -1356,7 +1368,7 @@ packages:
       css-tree: 2.3.1
       fast-glob: 3.3.2
       magic-string: 0.30.7
-      postcss: 8.4.32
+      postcss: 8.4.35
     dev: true
 
   /@unocss/preset-attributify@0.58.5:
@@ -1746,6 +1758,31 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
     dev: true
+
+  /ag-grid-charts-enterprise@31.1.1:
+    resolution: {integrity: sha512-1QYrFpAegm7R4ODsln+vjbwumVTLPyUJyNYk6LvTqfThpjs8r2Mpe/2LcJfCoaQErBrSSvI3+nHnAGimjT3D7Q==}
+    dependencies:
+      ag-grid-community: 31.1.1
+    dev: false
+
+  /ag-grid-community@31.1.1:
+    resolution: {integrity: sha512-tiQZ7VQ07yJScTMIQpaYoUMPgiyXMwYDcwTxe4riRrcYGTg0e258XEihoPUZFejR60P1fYWMxdJaR2JUnyhGrg==}
+    dev: false
+
+  /ag-grid-enterprise@31.1.1:
+    resolution: {integrity: sha512-hAy8x+P2KzpRb8RONvCj/FqLL0AJ4FEIEJsEuOEiZAEgi64TAhZv/FzIhIbAElPXf+OhCMKHIAKTD765vzCMOQ==}
+    dependencies:
+      ag-grid-community: 31.1.1
+    dev: false
+
+  /ag-grid-vue3@31.1.1(vue@3.4.20):
+    resolution: {integrity: sha512-GjR4/6JUWQ0VsdmcxSN5ks1vH+wB7lLjX1CbskPqNfD69/fb9l7Eg2oGAgqNJo8b87W87jzhg9RguOx5bDpsZQ==}
+    peerDependencies:
+      vue: ^3.0.0
+    dependencies:
+      ag-grid-community: 31.1.1
+      vue: 3.4.20(typescript@5.3.3)
+    dev: false
 
   /ansi-styles@3.2.1:
     resolution: {integrity: sha512-VT0ZI6kZRdTh8YyJw3SMbYm/u+NqfsAxEpWO0Pf9sq8/e94WxxOpPKx9FR1FlyCtOVDNOQ+8ntlqFxiRc+r5qA==}
@@ -3111,15 +3148,6 @@ packages:
       pathe: 1.1.2
     dev: true
 
-  /postcss@8.4.32:
-    resolution: {integrity: sha512-D/kj5JNu6oo2EIy+XL/26JEDTlIbB8hw85G8StOE6L74RQAVVP5rej6wxCNqyMbR4RkPfqvezVbPw81Ngd6Kcw==}
-    engines: {node: ^10 || ^12 || >=14}
-    dependencies:
-      nanoid: 3.3.7
-      picocolors: 1.0.0
-      source-map-js: 1.0.2
-    dev: true
-
   /postcss@8.4.35:
     resolution: {integrity: sha512-u5U8qYpBCpN13BsiEB0CbR1Hhh4Gc0zLFuedrHJKMctHCHAGrMdG0PRM/KErzAL3CU6/eckEtmHNB3x6e3c0vA==}
     engines: {node: ^10 || ^12 || >=14}
@@ -3528,7 +3556,7 @@ packages:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
     dev: true
 
-  /unocss@0.58.5(postcss@8.4.32)(rollup@2.79.1)(vite@5.1.4):
+  /unocss@0.58.5(postcss@8.4.35)(rollup@2.79.1)(vite@5.1.4):
     resolution: {integrity: sha512-0g4P6jLgRRNnhscxw7nQ9RHGrKJ1UPPiHPet+YT3TXUcmy4mTiYgo9+kGQf5bjyrzsELJ10cT6Qz2y6g9Tls4g==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -3544,7 +3572,7 @@ packages:
       '@unocss/cli': 0.58.5(rollup@2.79.1)
       '@unocss/core': 0.58.5
       '@unocss/extractor-arbitrary-variants': 0.58.5
-      '@unocss/postcss': 0.58.5(postcss@8.4.32)
+      '@unocss/postcss': 0.58.5(postcss@8.4.35)
       '@unocss/preset-attributify': 0.58.5
       '@unocss/preset-icons': 0.58.5
       '@unocss/preset-mini': 0.58.5

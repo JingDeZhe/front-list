@@ -2,6 +2,7 @@ import { createPinia } from 'pinia'
 import { createApp } from 'vue'
 
 import App from './App.vue'
+import './libs/playground'
 import useContextmenu from './libs/contextmenu'
 import useElement from './libs/element'
 import router from './router'

@@ -24,7 +24,6 @@ const colDefs = ref([
         function log() {
           console.log(params.data)
         }
-
         return { log }
       },
     }),

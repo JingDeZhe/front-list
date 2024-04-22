@@ -28,6 +28,7 @@ declare module 'vue-router/auto-routes' {
     '/demo/flow/NodeScript': RouteRecordInfo<'/demo/flow/NodeScript', '/demo/flow/NodeScript', Record<never, never>, Record<never, never>>,
     '鼠标框选元素': RouteRecordInfo<'鼠标框选元素', '/demo/range-selection', Record<never, never>, Record<never, never>>,
     '简单的右键菜单': RouteRecordInfo<'简单的右键菜单', '/draft/PlainContextmenu', Record<never, never>, Record<never, never>>,
+    '/gm/snake1/': RouteRecordInfo<'/gm/snake1/', '/gm/snake1', Record<never, never>, Record<never, never>>,
     '/js/binary-search': RouteRecordInfo<'/js/binary-search', '/js/binary-search', Record<never, never>, Record<never, never>>,
     '/js/build-tree-01': RouteRecordInfo<'/js/build-tree-01', '/js/build-tree-01', Record<never, never>, Record<never, never>>,
     '/js/generate-tree': RouteRecordInfo<'/js/generate-tree', '/js/generate-tree', Record<never, never>, Record<never, never>>,

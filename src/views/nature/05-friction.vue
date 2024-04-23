@@ -59,6 +59,10 @@ useP5((p) => {
   p.draw = () => {
     p.background(230)
     for (let ball of balls) {
+      const fri = ball.velocity.copy()
+      fri.normalize()
+      fri.mult(-0.5)
+      ball.applyForce(fri)
       ball.applyForce(g)
       ball.applyForce(wind)
       ball.update()

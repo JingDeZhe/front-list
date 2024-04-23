@@ -41,6 +41,8 @@ declare module 'vue-router/auto-routes' {
     '/nature/02-random': RouteRecordInfo<'/nature/02-random', '/nature/02-random', Record<never, never>, Record<never, never>>,
     '/nature/03-vector': RouteRecordInfo<'/nature/03-vector', '/nature/03-vector', Record<never, never>, Record<never, never>>,
     '/nature/04-force': RouteRecordInfo<'/nature/04-force', '/nature/04-force', Record<never, never>, Record<never, never>>,
+    '/nature/05-friction': RouteRecordInfo<'/nature/05-friction', '/nature/05-friction', Record<never, never>, Record<never, never>>,
+    '/nature/06-friction2': RouteRecordInfo<'/nature/06-friction2', '/nature/06-friction2', Record<never, never>, Record<never, never>>,
     '/pts/p01': RouteRecordInfo<'/pts/p01', '/pts/p01', Record<never, never>, Record<never, never>>,
     '/rx/': RouteRecordInfo<'/rx/', '/rx', Record<never, never>, Record<never, never>>,
     '/rx/d-01': RouteRecordInfo<'/rx/d-01', '/rx/d-01', Record<never, never>, Record<never, never>>,

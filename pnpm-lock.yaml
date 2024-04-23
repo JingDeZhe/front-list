@@ -56,6 +56,9 @@ importers:
       better-scroll:
         specifier: ^2.5.1
         version: 2.5.1
+      chroma-js:
+        specifier: ^2.4.2
+        version: 2.4.2
       codemirror:
         specifier: ^6.0.1
         version: 6.0.1(@lezer/common@1.1.0)
@@ -120,6 +123,9 @@ importers:
       '@tsconfig/node18':
         specifier: ^18.2.4
         version: 18.2.4
+      '@types/chroma-js':
+        specifier: ^2.4.4
+        version: 2.4.4
       '@types/lodash-es':
         specifier: ^4.17.12
         version: 4.17.12
@@ -793,6 +799,9 @@ packages:
   '@tsconfig/node18@18.2.4':
     resolution: {integrity: sha512-5xxU8vVs9/FNcvm3gE07fPbn9tl6tqGGWA9tSlwsUEkBxtRnTsNmwrV8gasZ9F/EobaSv9+nu8AxUKccw77JpQ==}
 
+  '@types/chroma-js@2.4.4':
+    resolution: {integrity: sha512-/DTccpHTaKomqussrn+ciEvfW4k6NAHzNzs/sts1TCqg333qNxOhy8TNIoQCmbGG3Tl8KdEhkGAssb1n3mTXiQ==}
+
   '@types/estree@1.0.1':
     resolution: {integrity: sha512-LG4opVs2ANWZ1TJoKc937iMmNstM/d0ae1vNbnBvBhqCSezgVUOzcLCqbI5elV8Vy6WKwKjaqR+zO9VKirBBCA==}
 
@@ -1153,6 +1162,9 @@ packages:
   chokidar@3.6.0:
     resolution: {integrity: sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==}
     engines: {node: '>= 8.10.0'}
+
+  chroma-js@2.4.2:
+    resolution: {integrity: sha512-U9eDw6+wt7V8z5NncY2jJfZa+hUH8XEj8FQHgFJTrUFnJfXYf4Ml4adI2vXZOjqRDpFWtYVWypDfZwnJ+HIR4A==}
 
   clean-css@5.3.3:
     resolution: {integrity: sha512-D5J+kHaVb/wKSFcyyV75uCn8fiY4sV38XJoe4CUyGQ+mOU/fMVYUdH1hJC+CJQ5uY3EnW27SbJYS4X8BiLrAFg==}
@@ -3093,6 +3105,8 @@ snapshots:
 
   '@tsconfig/node18@18.2.4': {}
 
+  '@types/chroma-js@2.4.4': {}
+
   '@types/estree@1.0.1': {}
 
   '@types/estree@1.0.5': {}
@@ -3613,6 +3627,8 @@ snapshots:
       readdirp: 3.6.0
     optionalDependencies:
       fsevents: 2.3.3
+
+  chroma-js@2.4.2: {}
 
   clean-css@5.3.3:
     dependencies:

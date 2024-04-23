@@ -12,6 +12,6 @@
     "composite": true,
     "module": "ESNext",
     "moduleResolution": "Bundler",
-    "types": ["node"]
+    "types": ["node", "vite-plugin-vue-layouts/client"]
   }
 }
